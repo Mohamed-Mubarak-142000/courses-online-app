@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "app/_components/ProductSection.jsx",
+    "app/_components/Footer.jsx",
+    "app/_components/Header.jsx",
+    "app/_components/Hero.jsx",
+    "app/course-Details/[courseID]/page.js",
+    "middleware.js",
+    "app/cart/page.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
